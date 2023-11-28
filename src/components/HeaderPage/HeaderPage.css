@@ -1,0 +1,124 @@
+.headerpage {
+  background-image: url("../../images/Frame-1-11.jpg");
+
+  height: 576px;
+}
+
+.headerpage__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 496px;
+}
+
+.headerpage__container-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+}
+
+.headerpage__container-title {
+  font-family: "Roboto Slab", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 64px;
+  width: 608px;
+  margin: 40px 0 10px 0;
+}
+
+.headerpage__container-subtitle {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 608px;
+}
+
+@media screen and (max-width: 768px) {
+  .headerpage {
+    height: 400px;
+  }
+
+  .headerpage__container {
+    height: 334px;
+    width: 90%;
+    padding-left: 40px;
+  }
+
+  .headerpage__container-text {
+    height: 144px;
+
+    max-width: 452px;
+    /* width: 87%; */
+  }
+
+  .headerpage__container-title {
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 75%;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .headerpage__container-subtitle {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 452px;
+    /* width: 80%; */
+    height: 48px;
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 508px) {
+    .headerpage__container-subtitle {
+      max-width: 395px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .headerpage {
+      height: 536px;
+    }
+
+    .headerpage__container-text {
+      margin: 0;
+      max-width: 285px;
+    }
+
+    .headerpage__container {
+      height: 480px;
+      justify-content: start;
+      padding-top: 35px;
+
+      padding-left: 20px;
+    }
+    .headerpage__container-title {
+      width: 100%;
+      margin-top: 0;
+
+      margin-bottom: 0;
+      align-self: flex-start;
+    }
+
+    .headerpage__container-subtitle {
+      width: 92%;
+      padding: 0;
+      align-self: flex-start;
+      margin-top: 16px;
+    }
+  }
+
+  @media screen and (max-width: 322px) {
+    .headerpage__container-subtitle {
+      margin-top: 16px;
+    }
+  }
+}
