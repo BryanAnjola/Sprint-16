@@ -41,15 +41,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .interface {
-    width: 768px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .interface {
-    width: 320px;
-  }
-} */
