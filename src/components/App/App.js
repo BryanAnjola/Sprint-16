@@ -27,7 +27,6 @@ function App() {
   const [visible, setVisible] = useState(3);
   const [savedNewsArticles, setSavedNewsArticles] = useState([]);
   const [selectedArticleId, setSelectedArticleId] = useState(null);
-  // eslint-disable-next-line
   const [authError, setAuthError] = useState("");
 
   const history = useHistory();
