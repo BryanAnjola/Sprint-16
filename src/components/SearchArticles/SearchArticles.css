@@ -4,8 +4,8 @@
   position: relative;
 }
 
-.search__container {
-}
+/* .search__container {
+} */
 
 .search__title {
   font-family: "Roboto Slab", Arial, sans-serif;
@@ -58,6 +58,9 @@
   line-height: 24px;
   position: relative;
   align-self: center;
+}
+.search__container-lower-btn:hover {
+  background-color: rgba(232, 232, 232, 1);
 }
 
 @media screen and (max-width: 768px) {

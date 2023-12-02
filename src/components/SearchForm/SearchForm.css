@@ -22,7 +22,9 @@
   font-size: 18px;
   line-height: 24px;
 }
-
+.search__form-button:hover {
+  background-color: rgba(52, 126, 255, 1);
+}
 .search__form-button-clicked {
   width: 168px;
   height: 64px;
@@ -97,7 +99,7 @@
   .search__form-input {
     max-width: calc(100% - 22px);
     height: 56px;
-
+    padding: 0px 20px 0px 5px;
     margin-top: 0;
   }
 

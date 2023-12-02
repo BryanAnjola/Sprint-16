@@ -323,7 +323,13 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-
+@media screen and (max-width: 820px) {
+  .navbar__li-title {
+    height: 24.8px;
+    width: 200px;
+    align-self: center;
+  }
+}
 @media screen and (max-width: 768px) {
   .navbar__nli {
     padding-left: 40px;
@@ -343,6 +349,7 @@
 
   .navbar__nli-title {
     height: 24.8px;
+    width: 200px;
   }
 
   .navbar__nli-signin {
@@ -364,14 +371,18 @@
     font-size: 16px;
     width: 60px;
   }
-
+  .navbar__li-title {
+    width: 200px;
+    height: 24.8px;
+    align-self: center;
+  }
   .navbar__li-page-container {
     gap: 0px;
   }
 
   .navbar__li-saved-articles {
     font-size: 16px;
-    width: 80px;
+    width: 160px;
   }
 
   .navbar__li-logout-button {
@@ -439,6 +450,9 @@
     width: 24px;
     height: 24px;
   }
-  .mobilrMenu {
+  .navbar__li-title {
+    width: 117px;
+    height: 24px;
+    align-self: center;
   }
 }
