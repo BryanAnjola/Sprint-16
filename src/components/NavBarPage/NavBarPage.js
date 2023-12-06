@@ -1,4 +1,5 @@
 import "../NavBarPage/NavBarPage.css";
+import "../MobileMenu/MobileMenu.css";
 import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 import CurrentUserContext from "../../contexts/CurrentUserContext";

@@ -17,7 +17,7 @@
 .card__date {
   margin: 20px 0 0 24px;
   color: #b6bcbf;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -82,6 +82,7 @@
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url("../../images/bookmarkInactive.svg");
 }
 
 .card__button-inactive {

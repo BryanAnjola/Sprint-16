@@ -18,7 +18,7 @@ const SearchForm = ({ handleGetArticles }) => {
   };
 
   return (
-    <section className="search__form">
+    <form className="search__form">
       <input
         className="search__form-input"
         type="text"
@@ -34,7 +34,7 @@ const SearchForm = ({ handleGetArticles }) => {
       >
         Search
       </button>
-    </section>
+    </form>
   );
 };
 
