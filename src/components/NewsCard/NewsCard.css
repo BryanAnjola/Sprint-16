@@ -82,6 +82,7 @@
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url("../../images/bookmarkInactive.svg");
 }
 
 .card__button-inactive {

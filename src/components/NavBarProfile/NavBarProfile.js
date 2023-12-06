@@ -1,4 +1,5 @@
 import "../NavBarProfile/NavBarProfile.css";
+import "../MobileMenu/MobileMenu.css";
 import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 import CurrentUserContext from "../../contexts/CurrentUserContext";
@@ -39,7 +40,7 @@ const NavBarProfile = ({
 
   return (
     <>
-      <section className="navbar__profile">
+      <nav className="navbar__profile">
         <NavLink to="/">
           <img
             className="navbar__profile-title"
@@ -79,7 +80,7 @@ const NavBarProfile = ({
             </button>
           </div>
         </div>
-      </section>
+      </nav>
 
       {isMobileMenuProfile && (
         <div className="mobilemenu__page">

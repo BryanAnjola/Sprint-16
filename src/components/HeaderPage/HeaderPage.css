@@ -42,16 +42,14 @@
   }
 
   .headerpage__container {
-    height: 334px;
+    height: 340px;
     width: 90%;
     padding-left: 40px;
   }
 
   .headerpage__container-text {
     height: 144px;
-
     max-width: 452px;
-    /* width: 87%; */
   }
 
   .headerpage__container-title {
@@ -76,17 +74,20 @@
     margin-top: 0;
   }
 
-  @media screen and (max-width: 508px) {
+  @media screen and (max-width: 600px) {
+    .headerpage {
+      height: 536px;
+    }
     .headerpage__container-subtitle {
       max-width: 395px;
+    }
+    .headerpage__container {
+      height: 420px;
+      gap: 70px;
     }
   }
 
   @media screen and (max-width: 450px) {
-    .headerpage {
-      height: 536px;
-    }
-
     .headerpage__container-text {
       margin: 0;
       max-width: 285px;
@@ -96,13 +97,13 @@
       height: 480px;
       justify-content: start;
       padding-top: 35px;
-
+      gap: 50px;
       padding-left: 20px;
     }
     .headerpage__container-title {
-      width: 100%;
+      width: 285px;
       margin-top: 0;
-
+      font-size: 36px;
       margin-bottom: 0;
       align-self: flex-start;
     }
