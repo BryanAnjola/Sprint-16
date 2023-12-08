@@ -47,8 +47,8 @@ const SignInModal = ({
 
   return (
     <ModalWithForm
-      title="Sign in"
-      name="Sign in"
+      title="sign in"
+      name="sign in"
       onClose={onClose}
       onSubmit={handleSubmit}
       buttonText={isLoading ? "Signing in" : "Sign in"}

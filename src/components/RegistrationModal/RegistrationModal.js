@@ -50,7 +50,7 @@ const RegisterModal = ({
   return (
     <ModalWithForm
       title="Sign up"
-      name="Sign up"
+      name="sign up"
       onClose={onClose}
       onSubmit={handleSubmit}
       buttonText={isLoading ? "Registering..." : "Sign up"}

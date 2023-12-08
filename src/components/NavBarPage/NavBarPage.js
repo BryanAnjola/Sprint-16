@@ -40,7 +40,7 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
   return (
     <>
       {currentUser === null ? (
-        <section className="navbar__nli">
+        <nav className="navbar__nli">
           <img
             className="navbar__nli-title"
             src={pageLogo}
@@ -63,9 +63,9 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
               </button>
             </div>
           </div>
-        </section>
+        </nav>
       ) : (
-        <section className="navbar__li">
+        <nav className="navbar__li">
           <img className="navbar__li-title" src={pageLogo} alt="page logo" />
           <button
             className="navbar__li-mobilemenu"
@@ -102,11 +102,11 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
               </button>
             </div>
           </div>
-        </section>
+        </nav>
       )}
       {isMobileMenuNotLoggedIn && (
         <div className="mobilemenu__page">
-          <section className="mobilemenu" onClick={handleCloseOnOverlay}>
+          <div className="mobilemenu" onClick={handleCloseOnOverlay}>
             <div className="mobilemenu__nli-upper">
               <img
                 className="mobilemenu__nli-title"
@@ -128,12 +128,12 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
                 Sign in
               </button>
             </div>
-          </section>
+          </div>
         </div>
       )}
       {isMobileMenuLoggedIn && (
         <div className="mobilemenu__page">
-          <section className="mobilemenu" onClick={handleCloseOnOverlay}>
+          <div className="mobilemenu" onClick={handleCloseOnOverlay}>
             <div className="mobilemenu__li-upper">
               <img
                 className="mobilemenu__li-title"
@@ -172,7 +172,7 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
                 />
               </button>
             </div>
-          </section>
+          </div>
         </div>
       )}
     </>
