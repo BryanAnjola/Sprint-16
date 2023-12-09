@@ -102,6 +102,7 @@
     max-width: calc(100% - 32px);
     padding-left: 0;
     padding-top: 15px;
+    margin-right: 10px;
   }
 
   .search__form-input {
