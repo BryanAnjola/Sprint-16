@@ -261,3 +261,14 @@
   gap: 10px;
   height: 155px;
 }
+@media screen and (max-width: 320px) {
+  .mobilemenu__nli-upper {
+    margin-trim: 0px;
+  }
+  .mobilemenu {
+    width: 320px;
+  }
+  .mobilemenu__page {
+    width: 320px;
+  }
+}

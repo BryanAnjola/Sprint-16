@@ -34,7 +34,8 @@
   border-radius: 60px;
   border: none;
   position: absolute;
-  right: -10px;
+  right: -30px;
+  bottom: 0px;
   cursor: pointer;
   font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
@@ -119,9 +120,9 @@
     height: 56px;
   }
   .search__form-button-clicked {
-    width: 100%;
-    max-width: 452px;
-    top: 190px;
+    width: 98%;
+    max-width: 490px;
+    top: 90px;
     left: 0;
     height: 56px;
   }
@@ -137,6 +138,6 @@
   }
 
   .search__form-button-clicked {
-    top: 190px;
+    top: 150px;
   }
 }

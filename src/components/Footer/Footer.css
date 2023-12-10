@@ -91,9 +91,7 @@
   .footer__left-description {
     position: relative;
     top: 140px;
-    width: 94%;
-    margin-left: 16px;
-    margin-right: 16px;
+    width: 100%;
   }
 
   .footer__right-tripleten {
