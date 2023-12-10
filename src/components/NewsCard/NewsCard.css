@@ -92,6 +92,9 @@
 .card__button-inactive:hover {
   background-image: url("../../images/bookmarkBlack.svg");
 }
+.card__button-inactive:clicked {
+  background-image: url("../../images/bookmarkBlue.svg");
+}
 
 .card__button-active {
   background-image: url("../../images/bookmarkBlue.svg");
