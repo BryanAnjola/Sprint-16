@@ -70,8 +70,8 @@ const NewsCard = ({
           <div
             className={`${
               isHovering === index
-                ? "card__signin-toSee"
-                : "card__signin-toSee-notShown"
+                ? "card__signin-tosee"
+                : "card__signin-tosee-notshown"
             }`}
           >
             {showsOnProfile ? (

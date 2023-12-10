@@ -8,7 +8,6 @@
   padding-right: 100px;
   border-bottom: 1px rgb(220, 220, 220, 0.5) solid;
   height: 80px;
-  position: relative;
 }
 
 .navbar__nli-mobilemenu {
@@ -167,7 +166,7 @@
   }
 
   .navbar__nli-title {
-    height: 24.8px;
+    height: 21.8px;
     width: 200px;
   }
 
@@ -229,7 +228,6 @@
 
   .navbar__nli-buttons {
     visibility: hidden;
-    position: absolute;
     right: 40px;
   }
 
@@ -245,7 +243,6 @@
 
   .navbar__li-buttons {
     visibility: hidden;
-    position: relative;
     right: 220px;
     width: 150px;
   }
@@ -258,7 +255,6 @@
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
-    position: relative;
   }
 
   .navbar__li-mobilemenu {
