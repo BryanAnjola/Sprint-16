@@ -11,20 +11,19 @@
 }
 
 .about__left-picture {
-  width: 500px;
-  height: 500px;
+  width: 464px;
+  height: 464px;
   border-radius: 60%;
 }
 
 .about__right {
-  margin-top: 85px;
   width: 600px;
-  margin: 150px 80px 80px 0;
+  margin: 100px 80px 80px 0;
 }
 
 .about__right-title {
   font-family: "Roboto Slab", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 40px;
 }

@@ -166,6 +166,7 @@
   }
 
   .navbar__nli-title {
+    padding-top: 5px;
     height: 21.8px;
     width: 200px;
   }
@@ -220,7 +221,10 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 474px) {
+  .navbar__li-page-container {
+    width: 160px;
+  }
   .navbar__nli {
     padding: 0 20px 0 20px;
     height: 66px;
@@ -229,8 +233,12 @@
   .navbar__nli-buttons {
     visibility: hidden;
     right: 40px;
+    width: 120px;
   }
-
+  .navbar__li-saved-articles {
+    font-size: 16px;
+    width: 70px;
+  }
   .navbar__nli-mobilemenu {
     visibility: visible;
     position: absolute;
@@ -238,10 +246,14 @@
     width: 24px;
     height: 24px;
   }
+  .navbar__nli-signin {
+    width: 320px;
+  }
 
   /* loggedIn */
 
   .navbar__li-buttons {
+    width: 320px;
     visibility: hidden;
     right: 220px;
     width: 150px;

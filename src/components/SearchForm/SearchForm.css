@@ -43,7 +43,9 @@
   font-size: 18px;
   line-height: 24px;
 }
-
+.search__form-button-active {
+  background-color: rgba(42, 101, 204, 1);
+}
 .search__form-input {
   width: 604px;
   height: 61px;
@@ -64,10 +66,10 @@
 
 @media screen and (max-width: 768px) {
   .search__form {
-    max-width: 87%;
+    max-width: 82%;
     height: 58px;
     margin: 0 10px 39px auto;
-    padding-top: 48px;
+    padding-top: 45px;
   }
 
   .search__form-input {
@@ -76,16 +78,16 @@
   }
 
   .search__form-button {
-    top: 47px;
+    top: 45px;
     right: 82px;
     width: 160px;
     height: 61px;
   }
 
   .search__form-button-clicked {
-    top: 47px;
-    right: 70px;
-    max-width: 156px;
+    top: 45px;
+    right: 82px;
+    width: 160px;
     height: 61px;
   }
 }
