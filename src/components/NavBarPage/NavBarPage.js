@@ -108,24 +108,24 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
       {isMobileMenuNotLoggedIn && (
         <div className="mobilemenu__page">
           <div className="mobilemenu" onClick={handleCloseOnOverlay}>
-            <div className="mobilemenu__upper">
+            <div className="mobilemenu__nli-upper">
               <img
-                className="mobilemenu__title"
+                className="mobilemenu__nli-title"
                 src={pageLogo}
                 id="home"
                 alt="page logo"
               />
 
               <img
-                className="mobilemenu__close"
+                className="mobilemenu__nli-close"
                 src={closeButton}
                 onClick={handleMobileMenuNotLoggedInOff}
                 alt="close button"
               />
             </div>
-            <div className="mobilemenu__lower">
-              <h2 className="mobilemenu-page">Home</h2>
-              <button className="mobilemenu__signin" onClick={handleSignIn}>
+            <div className="mobilemenu__nli-lower">
+              <h2 className="mobilemenu__nli-page">Home</h2>
+              <button className="mobilemenu__nli-signin" onClick={handleSignIn}>
                 Sign in
               </button>
             </div>
@@ -133,41 +133,41 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
         </div>
       )}
       {isMobileMenuLoggedIn && (
-        <div className="mobilemenu__page">
-          <div className="mobilemenu" onClick={handleCloseOnOverlay}>
-            <div className="mobilemenu__upper">
+        <div className="mobilemenu__page-li">
+          <div className="mobilemenu-li" onClick={handleCloseOnOverlay}>
+            <div className="mobilemenu__li-upper">
               <img
-                className="mobilemenu__title"
+                className="mobilemenu__li-title"
                 src={pageLogo}
                 id="home"
                 alt="page logo"
               />
 
               <img
-                className="mobilemenu__close"
+                className="mobilemenu__li-close"
                 src={closeButton}
                 onClick={handleMobileMenuLoggedInOff}
                 alt="close button"
               />
             </div>
-            <div className="mobilemenu__lower">
-              <h2 className="mobilemenu-page">Home</h2>
+            <div className="mobilemenu__li-lower">
+              <h2 className="mobilemenu__li-page">Home</h2>
 
               <NavLink to="/saved-news" style={{ textDecoration: "none" }}>
-                <button className="mobilemenu__savedarticles">
+                <button className="mobilemenu__li-savedarticles">
                   Saved Articles
                 </button>
               </NavLink>
 
               <button
-                className="mobilemenu__logout-button"
+                className="mobilemenu__li-logout-button"
                 type="button"
                 aria-label="logout"
                 onClick={handleSignOut}
               >
                 {`${currentUser}`}{" "}
                 <img
-                  className="mobilemenu__logout-image"
+                  className="mobilemenu__li-logout-image"
                   src={logoOutLogoPage}
                   alt="logo out logo page"
                 />

@@ -93,7 +93,7 @@
   background-image: url("../../images/bookmarkBlue.svg");
 }
 
-.card__button-active {
+.card__button:checked {
   background-image: url("../../images/bookmarkBlue.svg");
 }
 
