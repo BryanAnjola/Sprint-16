@@ -132,11 +132,16 @@
 
 @media screen and (max-width: 450px) {
   .search__form {
-    padding-top: 70px;
+    padding-top: 80px;
+    margin-right: 35px;
+  }
+  .search__form-input {
+    max-width: 266px;
   }
 
   .search__form-button {
-    top: 150px;
+    top: 160px;
+    width: 288px;
   }
 
   .search__form-button-clicked {

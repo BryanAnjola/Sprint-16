@@ -137,10 +137,20 @@
     position: absolute;
     right: 0;
   }
+  .modal {
+    width: calc(100% - 0px);
+    position: absolute;
+    top: -6.5px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .modal {
+    width: calc(100% - 145px);
     position: fixed;
     top: -6.5px;
     right: 0;
