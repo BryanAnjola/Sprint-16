@@ -73,13 +73,7 @@ const NewsCard = ({
                 ? "card__signin-tosee"
                 : "card__signin-tosee-notshown"
             }`}
-          >
-            {showsOnProfile ? (
-              <p>Remove from saved</p>
-            ) : (
-              <p>Sign in to save articles</p>
-            )}
-          </div>
+          ></div>
         </Link>
         <div>
           {showsOnProfile ? (
