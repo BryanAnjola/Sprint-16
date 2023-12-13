@@ -43,7 +43,7 @@
   font-size: 18px;
   line-height: 24px;
 }
-.search__form-button-active {
+.search__form-button:active {
   background-color: rgba(42, 101, 204, 1);
 }
 .search__form-input {
@@ -68,7 +68,7 @@
   .search__form {
     max-width: 82%;
     height: 58px;
-    margin: 0 10px 39px auto;
+    margin: 0 15px 39px auto;
     padding-top: 45px;
   }
 
@@ -105,7 +105,7 @@
     max-width: calc(100% - 32px);
     padding-left: 0;
     padding-top: 15px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .search__form-input {

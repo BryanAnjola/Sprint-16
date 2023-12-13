@@ -40,47 +40,47 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
   return (
     <>
       {currentUser === null ? (
-        <nav className="navbar__nli">
+        <nav className="navbar">
           <img
-            className="navbar__nli-title"
+            className="navbar__title"
             src={pageLogo}
             id="home"
             alt="page logo"
           ></img>
           <button
-            className="navbar__nli-mobilemenu"
+            className="navbar__mobilemenu"
             src={mobileMenuPage}
             onClick={handleMobileMenuNotLoggedInOn}
             alt="mobile menu not logged in"
           ></button>
-          <div className="navbar__nli-buttons">
-            <div className="navbar__nli-page-container">
+          <div className="navbar__buttons">
+            <div className="navbar__page-container">
               <NavLink to="/">
-                <button className="navbar__nli-page">Home</button>
+                <button className="navbar__page">Home</button>
               </NavLink>
-              <button className="navbar__nli-signin" onClick={handleSignIn}>
+              <button className="navbar__signin" onClick={handleSignIn}>
                 Sign in
               </button>
             </div>
           </div>
         </nav>
       ) : (
-        <nav className="navbar__li">
-          <img className="navbar__li-title" src={pageLogo} alt="page logo" />
+        <nav className="navbar">
+          <img className="navbar__title" src={pageLogo} alt="page logo" />
           <button
-            className="navbar__li-mobilemenu"
+            className="navbar__mobilemenu"
             src={mobileMenuPage}
             onClick={handleMobileMenuLoggedInOn}
             alt="mobile menu logged in"
           ></button>
-          <div className="navbar__li-buttons">
-            <div className="navbar__li-page-container">
+          <div className="navbar__buttons">
+            <div className="navbar__page-container">
               <NavLink to="/">
-                <button className="navbar__li-page">Home</button>
+                <button className="navbar__page">Home</button>
               </NavLink>
               <NavLink to="/saved-news">
                 <button
-                  className="navbar__li-saved-articles"
+                  className="navbar__saved-articles"
                   onClick={handleProfileIn}
                 >
                   Saved Articles
@@ -88,12 +88,13 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
               </NavLink>
 
               <button
-                className="navbar__li-logout-button"
+                className="navbar__logout-button"
                 type="button"
                 aria-label="logout"
                 onClick={handleSignOut}
               >
-                {`${currentUser}`}{" "}
+                {"Back "}
+                {""}
                 <img
                   className=" mobileMenu__li-logout-image"
                   src={logoOutLogoPage}
@@ -107,24 +108,24 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
       {isMobileMenuNotLoggedIn && (
         <div className="mobilemenu__page">
           <div className="mobilemenu" onClick={handleCloseOnOverlay}>
-            <div className="mobilemenu__nli-upper">
+            <div className="mobilemenu__upper">
               <img
-                className="mobilemenu__nli-title"
+                className="mobilemenu__title"
                 src={pageLogo}
                 id="home"
                 alt="page logo"
               />
 
               <img
-                className="mobilemenu__nli-close"
+                className="mobilemenu__close"
                 src={closeButton}
                 onClick={handleMobileMenuNotLoggedInOff}
                 alt="close button"
               />
             </div>
-            <div className="mobilemenu__nli-lower">
-              <h2 className="mobilemenu__nli-page">Home</h2>
-              <button className="mobilemenu__nli-signin" onClick={handleSignIn}>
+            <div className="mobilemenu__lower">
+              <h2 className="mobilemenu-page">Home</h2>
+              <button className="mobilemenu__signin" onClick={handleSignIn}>
                 Sign in
               </button>
             </div>
@@ -134,39 +135,39 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
       {isMobileMenuLoggedIn && (
         <div className="mobilemenu__page">
           <div className="mobilemenu" onClick={handleCloseOnOverlay}>
-            <div className="mobilemenu__li-upper">
+            <div className="mobilemenu__upper">
               <img
-                className="mobilemenu__li-title"
+                className="mobilemenu__title"
                 src={pageLogo}
                 id="home"
                 alt="page logo"
               />
 
               <img
-                className="mobilemenu__li-close"
+                className="mobilemenu__close"
                 src={closeButton}
                 onClick={handleMobileMenuLoggedInOff}
                 alt="close button"
               />
             </div>
-            <div className="mobilemenu__li-lower">
-              <h2 className="mobilemenu__li-page">Home</h2>
+            <div className="mobilemenu__lower">
+              <h2 className="mobilemenu-page">Home</h2>
 
               <NavLink to="/saved-news" style={{ textDecoration: "none" }}>
-                <button className="mobilemenu__li-savedarticles">
+                <button className="mobilemenu__savedarticles">
                   Saved Articles
                 </button>
               </NavLink>
 
               <button
-                className="mobilemenu__li-logout-button"
+                className="mobilemenu__logout-button"
                 type="button"
                 aria-label="logout"
                 onClick={handleSignOut}
               >
                 {`${currentUser}`}{" "}
                 <img
-                  className="mobilemenu__li-logout-image"
+                  className="mobilemenu__logout-image"
                   src={logoOutLogoPage}
                   alt="logo out logo page"
                 />
