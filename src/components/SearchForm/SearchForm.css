@@ -133,7 +133,6 @@
 @media screen and (max-width: 450px) {
   .search__form {
     padding-top: 80px;
-    margin-right: 35px;
   }
   .search__form-input {
     max-width: 266px;
@@ -146,5 +145,13 @@
 
   .search__form-button-clicked {
     top: 150px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .search__form {
+    margin-left: 0;
+  }
+  .search__form-input {
+    max-width: 266px;
   }
 }
