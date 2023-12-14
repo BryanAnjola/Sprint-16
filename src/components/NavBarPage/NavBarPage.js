@@ -48,7 +48,7 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
             alt="page logo"
           ></img>
           <button
-            className="navbar__mobilemenu"
+            className="navbar_menu"
             src={mobileMenuPage}
             onClick={handleMobileMenuNotLoggedInOn}
             alt="mobile menu not logged in"
@@ -68,7 +68,7 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
         <nav className="navbar">
           <img className="navbar__title" src={pageLogo} alt="page logo" />
           <button
-            className="navbar__mobilemenu"
+            className="navbar_menu"
             src={mobileMenuPage}
             onClick={handleMobileMenuLoggedInOn}
             alt="mobile menu logged in"
