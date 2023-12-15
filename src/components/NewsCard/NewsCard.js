@@ -45,9 +45,7 @@ const NewsCard = ({
     handleDeleteArticle(card);
   };
 
-  const cardButtonClassName = isBookmarked
-    ? "card__button card__button-active"
-    : "card__button card__button-inactive";
+  const cardButtonClassName = isBookmarked ? "card__button " : "card__button ";
 
   return (
     <>
@@ -92,6 +90,7 @@ const NewsCard = ({
           ) : (
             <button
               className={cardButtonClassName}
+              type="radio"
               onClick={currentUser !== null ? handleSaveButtonClick : undefined}
               onMouseEnter={
                 currentUser === null ? () => setIsHovering(index) : undefined

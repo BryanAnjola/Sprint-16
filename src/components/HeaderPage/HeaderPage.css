@@ -50,6 +50,7 @@
   .headerpage__container-text {
     height: 144px;
     max-width: 452px;
+    margin-left: 0;
   }
 
   .headerpage__container-title {
@@ -86,6 +87,7 @@
       max-width: 395px;
     }
     .headerpage__container {
+      padding-left: 40px;
       height: 420px;
       gap: 70px;
     }
