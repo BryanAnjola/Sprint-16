@@ -44,12 +44,12 @@
   .headerpage__container {
     height: 340px;
     width: 90%;
+    padding-left: 70px;
   }
 
   .headerpage__container-text {
     height: 144px;
     max-width: 452px;
-    margin: 0px;
   }
 
   .headerpage__container-title {
@@ -73,9 +73,9 @@
     height: 48px;
     margin-top: 0;
   }
-  @media screen and (max-width: 630px) {
-    .headerpage__container-text {
-      margin: 15px;
+  @media screen and (max-width: 650px) {
+    .headerpage__container {
+      padding-left: 55px;
     }
   }
   @media screen and (max-width: 580px) {

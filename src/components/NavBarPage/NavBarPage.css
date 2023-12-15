@@ -156,7 +156,6 @@
     height: 66px;
   }
   .navbar__page-container {
-    display: block;
     width: 160px;
   }
   .navbar__buttons {
@@ -190,6 +189,10 @@
 }
 
 @media screen and (max-width: 474px) {
+  .navbar__page-container-li {
+    display: block;
+    width: 160px;
+  }
   .navbar__page-container {
     width: 160px;
   }
