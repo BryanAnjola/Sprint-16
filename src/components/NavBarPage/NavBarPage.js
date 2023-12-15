@@ -74,7 +74,7 @@ const NavBarPage = ({ handleSignIn, handleSignOut, handleProfileIn }) => {
             alt="mobile menu logged in"
           ></button>
           <div className="navbar__buttons">
-            <div className="navbar__page-container">
+            <div className="navbar__page-container-li">
               <NavLink to="/">
                 <button className="navbar__page">Home</button>
               </NavLink>

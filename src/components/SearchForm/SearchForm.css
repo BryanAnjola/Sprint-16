@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 768px) {
   .search__form {
-    max-width: 82%;
+    max-width: 79%;
     height: 58px;
     margin: 0 15px 39px auto;
     padding-top: 45px;
@@ -153,5 +153,10 @@
   }
   .search__form-input {
     max-width: 266px;
+  }
+  .search__form-button-clicked {
+    top: 160px;
+    width: 288px;
+    position: absolute;
   }
 }

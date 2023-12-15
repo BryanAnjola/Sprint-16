@@ -89,7 +89,7 @@
 }
 
 .mobilemenu__li-close {
-  margin: 15px 0 15px 0;
+  margin: 16px 16px 16px 0;
   cursor: pointer;
 }
 
@@ -193,9 +193,8 @@
   margin-top: 15px;
 }
 
-.mobilemenu__profile-close {
-  margin-right: 15px;
-  cursor: pointer;
+.mobilemenu__li-lower {
+  width: 100%;
 }
 
 .mobilemenu__profile-lower {
@@ -266,27 +265,42 @@
     margin-left: 0;
   }
   .mobilemenu {
-    width: calc(100% - 145px);
+    width: 100%;
   }
   .mobilemenu__page {
-    width: calc(100% - 145px);
+    width: 100%;
+    height: 100%;
+  }
+  .mobilemenu-li {
+    max-width: 474px;
+
+    width: calc(100% - 19px);
+  }
+  .mobilemenu__page-li {
+    max-width: 474px;
+    width: calc(100% - 19px);
     height: 100%;
   }
 }
 @media screen and (max-width: 320px) {
-  .mobilemenu__li-upper {
-    margin: 0;
-  }
   .mobilemenu__nli-upper {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
   }
-  .mobilemenu {
-    width: calc(100% - 145px);
-  }
+
   .mobilemenu__page {
-    width: calc(100% - 145px);
+    max-width: 320px;
+    width: 100%;
     height: 100%;
+  }
+  .mobilemenu__page-li {
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+  }
+  .mobilemenu-li {
+    max-width: 320px;
+    width: 100%;
   }
 }
