@@ -63,7 +63,6 @@
   }
 
   .about__right {
-    margin-left: 60px;
     margin-top: 0px;
     width: 320px;
     display: flex;
@@ -168,9 +167,8 @@
   }
   .about__right-subtitle {
     width: 90%;
-    font-size: 12px;
+    font-size: 18px;
     margin-left: 16px;
     margin-right: 16px;
-    font-size: 15px;
   }
 }
