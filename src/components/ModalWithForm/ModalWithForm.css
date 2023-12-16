@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 450px) {
   .modal {
-    width: calc(100% - 145px);
+    width: 100%;
     position: fixed;
     top: -6.5px;
     right: 0;

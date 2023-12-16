@@ -33,6 +33,13 @@
   gap: 34px;
   text-align: center;
 }
+.navbar__page-container-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  text-align: center;
+}
 .navbar__signin {
   background: transparent;
   color: white;
@@ -158,6 +165,10 @@
   .navbar__page-container {
     width: 160px;
   }
+  .navbar__page-container-li {
+    display: block;
+    width: 160px;
+  }
   .navbar__buttons {
     width: 320px;
     visibility: hidden;
@@ -181,7 +192,10 @@
     padding: 0;
     width: 40px;
   }
-
+  .navbar__page-container-li {
+    display: block;
+    width: 160px;
+  }
   .navbar__signin {
     padding: 0;
     width: 130px;
@@ -190,7 +204,6 @@
 
 @media screen and (max-width: 474px) {
   .navbar__page-container-li {
-    display: block;
     width: 160px;
   }
   .navbar__page-container {
