@@ -273,12 +273,11 @@
   }
   .mobilemenu-li {
     max-width: 474px;
-
-    width: calc(100% - 19px);
+    width: 100%;
   }
   .mobilemenu__page-li {
     max-width: 474px;
-    width: calc(100% - 19px);
+    width: 100%;
     height: 100%;
   }
 }
