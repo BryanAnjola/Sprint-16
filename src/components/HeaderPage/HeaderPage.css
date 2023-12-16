@@ -44,13 +44,14 @@
   .headerpage__container {
     height: 340px;
     width: 90%;
-    padding-left: 70px;
+    padding-left: 25px;
   }
 
   .headerpage__container-text {
     height: 144px;
     max-width: 452px;
     margin-left: 0;
+    padding-bottom: 15px;
   }
 
   .headerpage__container-title {
@@ -90,6 +91,9 @@
       padding-left: 40px;
       height: 420px;
       gap: 70px;
+    }
+    .headerpage__container-text {
+      margin-left: 25px;
     }
   }
 
