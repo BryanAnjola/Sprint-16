@@ -65,6 +65,7 @@
   .about__right {
     margin-top: 0px;
     width: 320px;
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
   }
@@ -74,7 +75,6 @@
     height: 34px;
   }
   .about__right-subtitle {
-    padding-top: 10px;
     margin: 0;
     font-size: 18px;
   }
