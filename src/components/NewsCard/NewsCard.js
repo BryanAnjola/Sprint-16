@@ -12,7 +12,6 @@ const NewsCard = ({
   index,
   showsOnProfile,
   keyword,
-  savedNewsArticles,
 }) => {
   const currentUser = useContext(CurrentUserContext);
 
@@ -29,10 +28,6 @@ const NewsCard = ({
     id: articleInfo._id || articleInfo.id,
   };
 
-  const isBookmarked = savedNewsArticles.some(
-    (article) => article.link === card.link
-  );
-
   const handleSaveButtonClick = (e) => {
     if (e.target.classList.contains("card__button-active")) {
       handleDeleteArticle(card);
@@ -44,8 +39,6 @@ const NewsCard = ({
   const handleDeleteButtonClick = () => {
     handleDeleteArticle(card);
   };
-
-  const cardButtonClassName = isBookmarked ? "card__button " : "card__button ";
 
   return (
     <>
@@ -89,7 +82,7 @@ const NewsCard = ({
             </button>
           ) : (
             <button
-              className={cardButtonClassName}
+              className="card__button"
               type="radio"
               onClick={currentUser !== null ? handleSaveButtonClick : undefined}
               onMouseEnter={

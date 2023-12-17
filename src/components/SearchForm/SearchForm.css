@@ -91,9 +91,10 @@
     height: 61px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 680px) {
   .search__form {
-    width: 90%;
+    margin-left: 70px;
+    width: 91%;
     margin-right: 35px;
   }
   .search__form-button {
@@ -106,6 +107,7 @@
     padding-left: 0;
     padding-top: 15px;
     margin-left: 15px;
+    margin-right: 0px;
   }
 
   .search__form-input {
@@ -151,12 +153,11 @@
 }
 @media screen and (max-width: 430px) {
   .search__form {
-    margin-left: 65px;
+    margin-left: 40px;
   }
 }
 @media screen and (max-width: 400px) {
   .search__form {
-    margin-right: 16px;
     margin-left: 0;
   }
   .search__form-input {

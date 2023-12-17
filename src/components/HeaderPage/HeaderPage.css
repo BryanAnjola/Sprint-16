@@ -88,7 +88,7 @@
       max-width: 395px;
     }
     .headerpage__container {
-      padding-left: 40px;
+      padding-left: 30px;
       height: 420px;
       gap: 70px;
     }
@@ -129,6 +129,13 @@
   @media screen and (max-width: 322px) {
     .headerpage__container-subtitle {
       margin-top: 16px;
+      margin-left: 15px;
+    }
+    .headerpage__container-title {
+      margin-left: 15px;
+    }
+    .headerpage__container {
+      padding-left: 0;
     }
   }
 }
