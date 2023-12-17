@@ -88,12 +88,12 @@
       max-width: 395px;
     }
     .headerpage__container {
-      padding-left: 30px;
+      padding-left: 15px;
       height: 420px;
       gap: 70px;
     }
     .headerpage__container-text {
-      margin-left: 25px;
+      margin-left: 60px;
     }
   }
 
